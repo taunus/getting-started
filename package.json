@@ -1,0 +1,24 @@
+{
+  "name": "getting-started",
+  "version": "1.0.0",
+  "description": "Tutoral for Getting Started with Taunus",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taunus/getting-started.git"
+  },
+  "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taunus/getting-started/issues"
+  },
+  "homepage": "https://github.com/taunus/getting-started",
+  "dependencies": {
+    "express": "^4.10.2",
+    "taunus": "^2.7.2",
+    "taunus-express": "^1.0.1"
+  }
+}
