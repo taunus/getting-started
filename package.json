@@ -18,6 +18,7 @@
   "homepage": "https://github.com/taunus/getting-started",
   "dependencies": {
     "express": "^4.10.2",
+    "serve-static": "^1.7.1",
     "taunus": "^2.7.2",
     "taunus-express": "^1.0.1"
   }

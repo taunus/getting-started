@@ -19,8 +19,14 @@ jade_debug.unshift({ lineno: undefined, filename: jade_debug[0].filename });
 jade_debug.shift();
 buf.push("</main>");
 jade_debug.shift();
+jade_debug.unshift({ lineno: 3, filename: "views/layout.jade" });
+buf.push("<script src=\"/js/all.js\">");
+jade_debug.unshift({ lineno: undefined, filename: jade_debug[0].filename });
+jade_debug.shift();
+buf.push("</script>");
+jade_debug.shift();
 jade_debug.shift();}.call(this,"model" in locals_for_with?locals_for_with.model:typeof model!=="undefined"?model:undefined,"undefined" in locals_for_with?locals_for_with.undefined:typeof undefined!=="undefined"?undefined:undefined,"partial" in locals_for_with?locals_for_with.partial:typeof partial!=="undefined"?partial:undefined));;return buf.join("");
 } catch (err) {
-  jade.rethrow(err, jade_debug[0].filename, jade_debug[0].lineno, "title=model.title\nmain!=partial\n");
+  jade.rethrow(err, jade_debug[0].filename, jade_debug[0].lineno, "title=model.title\nmain!=partial\nscript(src='/js/all.js')\n");
 }
 }
