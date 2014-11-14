@@ -9,11 +9,12 @@ var controllers = {
   'home/index': require('../client/js/controllers/home/index.js')
 };
 
-var routes = {
-  '/': {
+var routes = [
+  {
+    route: '/',
     action: 'home/index'
   }
-};
+];
 
 module.exports = {
   templates: templates,
