@@ -1,6 +1,6 @@
 {
   "name": "getting-started",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tutoral for Getting Started with Taunus",
   "main": "app.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "express": "^4.10.2",
     "serve-static": "^1.7.1",
-    "taunus": "^2.10.0",
+    "taunus": "^3.1.0",
     "taunus-express": "^1.0.1"
   }
 }
