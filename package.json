@@ -1,7 +1,7 @@
 {
   "name": "getting-started",
   "version": "1.0.1",
-  "description": "Tutoral for Getting Started with Taunus",
+  "description": "Tutorial for Getting Started with Taunus",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
