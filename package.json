@@ -19,7 +19,7 @@
   "dependencies": {
     "express": "^4.10.2",
     "serve-static": "^1.7.1",
-    "taunus": "^3.1.0",
-    "taunus-express": "^1.0.1"
+    "taunus": "^4.1.0",
+    "taunus-express": "^2.1.0"
   }
 }
